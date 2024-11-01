@@ -1,0 +1,21 @@
+{
+	"name": "{{cookiecutter.project_name}}",
+	"version": "1.0.0",
+	"type": "module",
+	"main": "src/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node --watch src/index.js",
+		"check": "npx @biomejs/biome check",
+		"format": "biome format --write --no-errors-on-unmatched",
+		"prepare": "husky"
+	},
+	"keywords": [],
+	"author": "{{cookiecutter.author}}",
+	"license": "{{cookiecutter.license}}",
+	"description": "{{cookiecutter.description}}",
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"husky": "^9.1.6"
+	}
+}
