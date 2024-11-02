@@ -17,7 +17,7 @@
   brew install cookiecutter
 ```
 
-#### Install cookiecutter
+#### Initialize cookiecutter
 
 ```bash
   cookiecutter ~/cookiecutters/[your-cookiecutter]
